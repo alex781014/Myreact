@@ -1,24 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Mypage from './page/Mypage';
 import './App.css';
-
+// function 開頭變成大寫 元件的概念好管理
+// App.js App.css
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Mypage />
   );
 }
 
