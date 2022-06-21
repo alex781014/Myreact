@@ -11,15 +11,15 @@
             /* padding-bottom: 100%; */
             /* ↓↓↓比例1比1 */
             aspect-ratio: 1/1;
-            background-color: #faf;
+            /* background-color: #faf; */
             border-radius: 50%;
         }
 
-        .col-3:nth-child(1) .color-selector {
+        /* .col-3:nth-child(1) .color-selector {
             background-color: lightpink;
         }
 
         .col-3:nth-child(2) .color-selector {
             background-color: lightseagreen;
-        }
+        } */
 
